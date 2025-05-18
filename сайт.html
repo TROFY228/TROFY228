@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportLife - Твой путь к здоровью!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SportLife</h1>
+        <p>Твой путь к здоровью и силе!</p>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#training">Тренировки</a>
+        <a href="#nutrition">Питание</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="hero">
+            <h1>Добро пожаловать в мир спорта!</h1>
+        </section>
+        <section id="training" class="card">
+            <h2>Лучшие тренировки</h2>
+            <p>Узнайте о самых эффективных программах для набора мышечной массы, похудения и выносливости.</p>
+        </section>
+        <section id="nutrition" class="card">
+            <h2>Правильное питание</h2>
+            <p>Сбалансированный рацион - залог успеха в любом виде спорта.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 SportLife. Все права защищены.</p>
+    </footer>
+</body>
+</html>
